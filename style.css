@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a:visited, a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav > h1{
+    margin: 10px;
+}
+body hr{
+    margin: auto;
+    width: 80%;
+}
+.languages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.languages > h2{
+    margin: 10px 0 0;
+    width: 100%;
+}
+.languages > img{
+    margin: 5px;
+}
+.techs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.techs > h2{
+    margin: 10px 0 0;
+    width: 100%;
+}
+.techs > img{
+    margin: 5px;
+}
+.os{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.os > h2{
+    margin: 10px 0 0;
+    width: 100%;
+}
+.os > img{
+    margin: 5px;
+}
+.stats-projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.gh-stats{
+    flex-flow: wrap row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.gh-stats h2{
+    width: 100%;
+    margin: 10px 0;
+}
+.gh-stats img{
+    height: 170px;
+    margin: 10px ;
+}
+.projects{
+    flex-flow: wrap column;
+    display: flex;
+    width: 40%;
+}
+.projects > h2{
+    position: absolute;
+    right: 20%;
+    top: 10px;
+}
+.projects ul li{
+    text-align: start;
+    list-style: none;
+    margin: 5px 0;
+}
