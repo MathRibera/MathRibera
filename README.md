@@ -16,12 +16,12 @@
     align="center"
 >
   <img
-    height="200px"
+    height="100px"
     align="center"
     src="https://github-readme-stats.vercel.app/api?username=MathRibera&show_icons=true&theme=dracula"
   />
   <img
-    height="200px"
+    height="100px"
     align="center"
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathRibera&show_icons=true&theme=dracula&layout=compact"
     />
