@@ -35,7 +35,7 @@
 <br>
 <h2
   align="center"
->Languages/Markup Language</h2>
+>Markup Language</h2>
 <br>
 <div
   align="center"
